@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Router>
+    <Router basename="/my-react-app-api">
       <Routes>
         <Route path="/" element={<NewHome />} />
       </Routes>
