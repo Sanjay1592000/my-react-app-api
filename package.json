@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Sanjay1592000.github.io/my-react-app-api",
+  "homepage": "https://sanjay1592000.github.io/my-react-app-api",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
