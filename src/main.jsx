@@ -1,14 +1,14 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { NewHome } from '.'
-import { BrowserRouter as Router, Route, Routes, BrowserRouter } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, BrowserRouter, HashRouter } from "react-router-dom";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/my-react-app-api">
+    <HashRouter>
       <Routes>
         <Route path="/" element={<NewHome />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </StrictMode>,
 )
